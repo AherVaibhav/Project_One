@@ -1,6 +1,4 @@
 #!/usr/bin/ruby
-
-
 require 'test/unit/ui/console/testrunner'
 require "test/unit"
 require "./mars_rover"
@@ -104,8 +102,6 @@ class NasaTests < Test::Unit::TestCase
 	 	rover_in_action = MarsPlateau.rovers.pop
 		assert_equal("x, y and direction 0,0, W \n", rover_in_action.to_string)
 	end 
-
-
 end
 
 
